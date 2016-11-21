@@ -1,60 +1,32 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
-  <meta http-equiv='Content-Type' content='text/html; charset='utf-8'/>
-	<link rel="stylesheet" href="_css/jquery.mobile.css" />
-	<link rel="stylesheet" href="_css/mystyles.css">
-	
-	<script src="_js/jquery.js"></script>
-	<script src="_js/jquery.mobile.js"></script>
-	<script src="_js/myscript.js"></script>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="css/jquery.mobile.css">
+	<script src="scripts/jquery.js"></script>
+	<script src="scripts/jquery.mobile.js"></script>
+	<script src="scripts/myscript.js"></script>	
 </head>
-
 <body>
-	<!-- main page listing provinces/territories -->
-	<div data-role="page" id="provinces">
-		<div data-role="header">
-			<h1>Locations</h1>
-		</div>
-		<section class="ui-content" role="main">
-				<ul id="provmenu" data-role="listview" data-inset="true" data-filter="true">
-
-				</ul>
-		</section>
-	<footer data-role="footer">
-      <nav data-role="navbar">
-        <ul>
-          <li><a href="http://canada.ca" class="ui-btn ui-icon-canada ui-btn-icon-top">Canada</a></li>
-					<li><a href="http://timhortons.com" class="ui-btn ui-icon-tims ui-btn-icon-top">Tim Hortons</a></li>
-					<li><a href="http://toronto.bluejays.mlb.com" class="ui-btn ui-icon-bluejays ui-btn-icon-top">Blue Jays</a></li>
-					<li><a href="http://mapleleafs.nhl.com" class="ui-btn ui-icon-mapleleafs ui-btn-icon-top">Maple Leafs</a></li>
-        </ul>
-      </nav>
-		</footer>
-	</div>
-	
-	<!-- individual page for province/territory info -->
-	<div data-role="page" id="individual">
+    <div id="hospital" data-role="page" data-theme="b">
 		<header data-role="header">
-      <nav data-role="navbar">
-        <ul data-role="controlgroup"
-								data-type="horizontal" style="text-align:center;">
-          <li><a href="#provinces" class="ui-btn ui-icon-home ui-btn-icon-top">HOME</a></li>
-					<li><a href="http://canada.ca" class="ui-btn ui-icon-canada ui-btn-icon-top">Canada</a></li>
-					<li><a href="http://timhortons.com" class="ui-btn ui-icon-tims ui-btn-icon-top">Tim Hortons</a></li>
-					<li><a href="http://toronto.bluejays.mlb.com" class="ui-btn ui-icon-bluejays ui-btn-icon-top">Blue Jays</a></li>
-					<li><a href="http://mapleleafs.nhl.com" class="ui-btn ui-icon-mapleleafs ui-btn-icon-top">Maple Leafs</a></li>
-        </ul>
-      </nav>		
+			<h1>Hospital</h1>
 		</header>
-		<section class="ui-content" role="main">
-				<div class="ui-grid-a">
-					<section class="ui-block-a" id="mainblocka"></section>
-					<section class="ui-block-b" id="mainblockb"></section>
-				</div>
-		</section>
-	</div>
+  <div data-role="main" class="ui-content">
+    
+    </ul>
+</div>
+		<footer data-role="footer">
+		<div data-role="navbar">
+            <ul>
+                <li><a href="#info0" data-rel='popup'></a></li>
+                <li><a href="#info1" data-rel='popup'></a></li>
+            </ul>
+</div>
+		</footer>
+		<div id="info0" data-role="popup"></div>
+		<div id="info1" data-role="popup"></div>	
+</div>
+
 </body>
-</html>   
+</html>
