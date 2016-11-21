@@ -1,7 +1,7 @@
 $(document).on("pagebeforeshow", "#hospital", function() {
 	$.getJSON("json1.json", function (data) {
         
-		start = data.members;
+		start = data.GroupInfo.members;
         
 		for (x = 0; x < start.length; x++) {
             
