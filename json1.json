@@ -1,20 +1,20 @@
-{
-	"GroupInfo": 
-	{
-	"members": [
-		{
-		"firstName": "Artem",
-		"lastName": "Khlamov",
-		"studentLogin": "khlamov",
-		"studentNum": "991408371",
-		"studentPic": "0.jpeg"
-		}, 
-		{
-		"firstName": "Gye Hyun",
-		"lastName": "Kim",
-		"studentLogin": "kimgy",
-		"studentNum": "991390461",
-		"studentPic": "1.jpeg"
-		}]
-	}	
+{  
+   "GroupInfo":{  
+      "members":[  
+         {  
+            "firstName":"Artem",
+            "lastName":"Khlamov",
+            "studentLogin":"khlamov",
+            "studentNum":"991408371",
+            "studentPic":"0.jpeg"
+         },
+         {  
+            "firstName":"Gye Hyun",
+            "lastName":"Kim",
+            "studentLogin":"kimgy",
+            "studentNum":"991390461",
+            "studentPic":"1.jpeg"
+         }
+      ]
+   }
 }
