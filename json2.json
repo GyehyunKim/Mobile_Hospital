@@ -1,0 +1,36 @@
+{  
+   "Hospital":{  
+      "name":"The Princess Margaret Cancer Centre",
+      "city":"610 University Avenue, Toronto, ON M5G 2M9",
+      "url":"http://thepmcf.ca/Home",
+      "phone":"416-946-6560",
+      "lat":"43.659106",
+      "lng":"-79.390132",
+      "departments":[  
+         {  
+            "deptName":"CANCER EDUCATION PROGRAM",
+            "deptDesc":"As a global leader in patient education, Princess Margaret offers programs that encourage and enable people with cancer, their caregivers and their families to become active participants in their cancer care.",
+            "deptPhone":"416-581-8620",
+            "deptEmail":"patienteducation@uhn.on.ca"
+         },
+         {  
+            "deptName":"PHARMACY",
+            "deptDesc":"As the largest comprehensive clinical pharmacy program in Canada, we supply medications and specialty clinical services to Princess Margaret patients, doctors, visitors and walk-in customers.",
+            "deptPhone":"416-946-2830",
+            "deptEmail":"PMH-MRS@uhn.ca"
+         },
+         {  
+            "deptName":"RADIATION MEDICINE PROGRAM",
+            "deptDesc":"?Radiation therapy is a highly effective treatment modality for patients with cancer. ",
+            "deptPhone":"416-946-4501",
+            "deptEmail":"breastreferrals@rmp.uhn.ca"
+         },
+         {  
+            "deptName":"CANCER CLINICAL RESEARCH",
+            "deptDesc":"As one of the largest clinical research centres dedicated to improving treatment for people with cancer, the Princess Margaret Cancer Clinical Research Unit (CCRU) provides leadership, oversight and infrastructure for researchers within the Princess Margaret Cancer Centre.",
+            "deptPhone":"416-236-4639",
+            "deptEmail":"clinicresearch@ccr.uhn.ca"
+         }
+      ]
+   }
+}
